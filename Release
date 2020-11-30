@@ -1,0 +1,25 @@
+Architectures: i386 amd64 all
+Codename: cheetah
+Components: main
+Date: Sat, 12 Dec 2020 03:21:00 +0000
+Description: KloudOS 0.0.1 version
+Label: KloudOS
+Origin: kloudos
+Suite: alpha
+Version: 0.0.1
+MD5Sum:
+ a2d6d59d7282dc91831969fda909a470            11062 Packages
+ 24168df729589cc4457ba3da120fb5bb             3969 Packages.gz
+ 1f673e7309abb990242510c1e86d1355              197 Release
+SHA1:
+ 6e7177e4911b20ef5771eda86a17f99cc2bcc742            11062 Packages
+ a31b8c5b3aca57b649a7d3f492c8fa74ef46455b             3969 Packages.gz
+ 41c9206d63b8894e5923d5ced18f034933e8eec6              197 Release
+SHA256:
+ 2defd39cb0a97dfa01ce4a5e84891046914e182b9a9e8c97fced007e6e421e3f            11062 Packages
+ de9565c9f4c70f82ff723cc4146cfffe7cd076fb8f8d9e9aa4dc314205eabff3             3969 Packages.gz
+ 205679da5cc9d8372f632c2293b58545e5a8bf79050953c93e5ad7b92286b579              197 Release
+SHA512:
+ ee066a8ccc8bf637aafdd36fed6d2d35097a5a12956bbad3dc91dbef824c1e9673f8019d2fc67d2724ec6d775668960bfee74c951cf1f44a35f30c7c574a7c3a            11062 Packages
+ 1c4d5fb08d4f19f4c09b313f4c528525cacab6ecdc4eb96fdb955f9f622eaa792cee1c4218e04dbd83859d3af44a96bc6e0519c52ed4343b567207b75dea9eb2             3969 Packages.gz
+ f9a748f2f80e103119517889c6fda51d101981f445bcdbd2695fbf50eeed56b6e2721c94d5b26aee04131b7fe686a13f369adbcda85f2afddc3494b69cd1737f              197 Release

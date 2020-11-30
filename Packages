@@ -1,0 +1,177 @@
+Package: gnome-control-center
+Version: 1:3.38.1-2ubuntu1kloudos1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 4793
+Depends: libaccountsservice0 (>= 0.6.40), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.29), libcairo2 (>= 1.14.0), libcheese-gtk25 (>= 3.18.0), libcheese8 (>= 3.28.0), libcolord-gtk1 (>= 0.1.24), libcolord2 (>= 1.4.3), libcups2 (>= 1.7.0), libepoxy0 (>= 1.0), libfontconfig1 (>= 2.12.6), libgdk-pixbuf2.0-0 (>= 2.25.2), libglib2.0-0 (>= 2.63.1), libgnome-bluetooth13 (>= 3.18.2), libgnome-desktop-3-19 (>= 3.32.2-2ubuntu2), libgoa-1.0-0b (>= 3.25.3), libgoa-backend-1.0-1 (>= 3.10.0), libgsound0 (>= 1.0.1), libgtk-3-0 (>= 3.22.20), libgtop-2.0-11 (>= 2.22.3), libgudev-1.0-0 (>= 232), libhandy-1-0 (>= 0.90), libibus-1.0-5 (>= 1.5.2), libkrb5-3 (>= 1.8+dfsg), libmm-glib0 (>= 0.7.991), libnm0 (>= 1.23.90), libnma0 (>= 1.8.0), libpango-1.0-0 (>= 1.37.2), libpangocairo-1.0-0 (>= 1.18.0), libpolkit-gobject-1-0 (>= 0.103), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libpwquality1 (>= 1.1.0), libsecret-1-0 (>= 0.7), libsmbclient (>= 2:4.0.3+dfsg1), libsnapd-glib1 (>= 1.57), libsoup2.4-1 (>= 2.41.90), libudisks2-0 (>= 2.0.0), libupower-glib3 (>= 0.99.8), libwacom2 (>= 1.1), libwayland-server0 (>= 1.0.2), libx11-6, libxi6 (>= 2:1.2.99.4), libxml2 (>= 2.7.4), accountsservice, apg, colord (>= 0.1.30), desktop-file-utils, gnome-control-center-data (<< 1:3.39), gnome-control-center-data (>= 1:3.38.1-2ubuntu1kloudos1), gnome-desktop3-data, gnome-settings-daemon (>= 3.29), gsettings-desktop-schemas (>= 3.31.0), language-selector-gnome (>= 0.179~), libfirmware-manager, libpop-theme-switcher, libkloudos-upgrade-gtk, libs76-hidpi-widget, system-config-printer (>= 1.4), whoopsie-preferences
+Recommends: cups-pk-helper, gnome-online-accounts (>= 3.25.3), gnome-user-docs, gkbd-capplet, ibus, iso-codes, libcanberra-pulse, policykit-1, network-manager-gnome (>= 0.9.8), cracklib-runtime, pulseaudio-module-bluetooth, gnome-control-center-faces, rygel | rygel-tracker
+Suggests: gnome-software | gnome-packagekit, gnome-user-share, realmd, gstreamer1.0-pulseaudio, libcanberra-gtk-module, libcanberra-gtk3-module, x11-xserver-utils
+Provides: firmware-manager-virtual
+Filename: ./gnome-control-center/gnome-control-center_3.38.1-2ubuntu1kloudos1_amd64.deb
+Size: 1685400
+MD5sum: feac57765e199f65ac504dba530a84e8
+SHA1: 0d2bf40ac5c65cd5e20f47e5a30baf764aaa33e7
+SHA256: 4be5a86319f10cf53c2de088349ce3a439a315aea60157d468d6bb149b4877fd
+Section: gnome
+Priority: optional
+Description: utilities to configure the GNOME desktop
+ This package contains configuration applets for the GNOME desktop,
+ allowing to set accessibility configuration, desktop fonts, keyboard
+ and mouse properties, sound setup, desktop theme and background, user
+ interface properties, screen resolution, and other GNOME parameters.
+ .
+ It also contains a front end to these applets, which can also be
+ accessed with the GNOME panel or the Nautilus file manager.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-control-center-data
+Source: gnome-control-center
+Version: 1:3.38.1-2ubuntu1kloudos1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 14699
+Depends: dconf-gsettings-backend | gsettings-backend, session-migration
+Breaks: gnome-control-center (<< 1:3.7.92-2~)
+Replaces: gnome-control-center (<< 1:3.7.92-2~)
+Filename: ./gnome-control-center/gnome-control-center-data_3.38.1-2ubuntu1kloudos1_all.deb
+Size: 2425408
+MD5sum: a4ff88faf561acd1ff4e4a8fef0734be
+SHA1: 9848411dba5c31e677ecc2ecba83faf8c7c23919
+SHA256: 8ef6aa68c1c021aa18f49f462b1c50455ea145ac1431c573ead7a2c049558dc2
+Section: gnome
+Priority: optional
+Multi-Arch: foreign
+Description: configuration applets for GNOME - data files
+ This package contains data files (icons, pixmaps, locales files) needed by
+ the configuration applets in the gnome-control-center package.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-control-center-dev
+Source: gnome-control-center
+Version: 1:3.38.1-2ubuntu1kloudos1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 52
+Depends: gnome-control-center-data
+Filename: ./gnome-control-center/gnome-control-center-dev_3.38.1-2ubuntu1kloudos1_all.deb
+Size: 42712
+MD5sum: fea526e9eee880218def954f85c9238b
+SHA1: 5d52caeb5131f6d1de458a1c116fe526a65a77e5
+SHA256: 9f07fcb4ae2f29301b00e6f421ec55024dc156ade1a1a21405acba6abdad796b
+Section: devel
+Priority: optional
+Multi-Arch: foreign
+Description: utilities to configure the GNOME desktop
+ This package contains the file required to get the keydirs location
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-control-center-faces
+Source: gnome-control-center
+Version: 1:3.38.1-2ubuntu1kloudos1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1303
+Conflicts: unity-control-center-faces
+Replaces: unity-control-center-faces
+Provides: unity-control-center-faces
+Filename: ./gnome-control-center/gnome-control-center-faces_3.38.1-2ubuntu1kloudos1_all.deb
+Size: 1256412
+MD5sum: 21ac06463aae05223088e836c19201c4
+SHA1: 6a0b11063d2cd0209a4dba2221d3901a025d53ee
+SHA256: f7fccf57006a1fb0d250617939dba1704f2b2342fb8d4052557175c95311288c
+Section: gnome
+Priority: optional
+Multi-Arch: foreign
+Description: utilities to configure the GNOME desktop - faces images
+ This package contains images that can be used for user profile's icon
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: kloudos-desktop
+Version: 0.0.1
+Architecture: all
+Essential: yes
+Maintainer: Latha Guntaka <admin@kloudos.org>
+Installed-Size: 10
+Depends: kloudos-wallpapers, kloudos-session, gnome-control-center, gnome-disk-utility, gnome-system-monitor, gnome-terminal, language-selector-gnome, nautilus, pop-gnome-initial-setup, build-essential, curl, git, brltty, chrome-gnome-shell, fonts-dejavu-core, fonts-freefont-ttf, fonts-liberation, ghostscript-x, gnome-bluetooth, gnome-online-miners, gnome-orca, gnome-menus, gnome-themes-standard, gnome-video-effects, gvfs-backends, gvfs-fuse, ibus-table, inputattach, libatk-adaptor, libcanberra-gtk-module, libegl-mesa0, libpam-gnome-keyring, libproxy1-plugin-gsettings, libproxy1-plugin-networkmanager, nautilus-sendto, network-manager-pptp-gnome, sessioninstaller, sound-theme-freedesktop, sddm, gnome-shell, xorg, kloudos-default-settings, app-install-data-partner, apt-transport-https, avahi-autoipd, avahi-daemon, cryptsetup, dbus-user-session, ecryptfs-utils, glib-networking, gstreamer1.0-plugins-base-apps, libnss-mdns, net-tools, policykit-desktop-privileges, resolvconf, xdg-user-dirs-gtk, xdg-utils, acpi-support, alsa-base, bluez, bluez-cups, cups-bsd, cups, fwupd, fwupdate, gstreamer1.0-alsa, gstreamer1.0-vaapi, ifupdown, laptop-detect, libblockdev-crypto2, libblockdev-mdraid2, libvdpau-va-gl1, lvm2, mesa-va-drivers, mesa-vulkan-drivers, network-manager, openprinting-ppds, pcmciautils, printer-driver-all, pulseaudio, rfkill, ubuntu-drivers-common, wireless-tools, vdpau-driver-all, appmenu-gtk2-module
+Recommends: baobab, eog, evince, firefox, geary, gedit, gnome-calculator, gnome-calendar, gnome-contacts, gnome-font-viewer, gnome-power-manager, gnome-screenshot, gnome-weather, gucharmap, libavcodec58, libreoffice-calc, libreoffice-impress, libreoffice-writer, pop-shop, pop-transition, popsicle-gtk, seahorse, simple-scan, totem, yelp, file-roller, com.github.donadigo.eddy, popsicle, fonts-noto-color-emoji, gnome-remote-desktop, gnome-shell-extension-prefs, libreoffice-gnome, libreoffice-ogltrans, network-manager-config-connectivity-pop, appmenu-gtk3-module, hidpi-daemon, flatpak
+Conflicts: system76-desktop
+Filename: ./desktop/kloudos-desktop_0.0.1_all.deb
+Size: 4244
+MD5sum: e8c965d8e022aa093aa5fd7724fe5915
+SHA1: e2f3d01d74cfcb001577b6308c01323f6e321ff8
+SHA256: b107f817e3eeab0a73c09335b46d3e9a6fe77ec67eb56d14a46b149ab6a52101
+Section: metapackages
+Priority: required
+Homepage: https://github.com/kloudos/desktop.git
+Description: KloudOS Desktop Metapackage
+
+Package: kloudos-session
+Version: 0.0.1
+Architecture: all
+Maintainer: Latha Guntaka <admin@kloudos.org>
+Installed-Size: 32
+Depends: dconf-gsettings-backend | gsettings-backend, gnome-shell, gnome-shell-extension-alt-tab-raise-first-window, gnome-shell-extension-always-show-workspaces, gnome-shell-extension-appindicator, gnome-shell-extension-desktop-icons-ng, gnome-shell-extension-pop-battery-icon-fix, gnome-shell-extension-pop-shop-details, gnome-shell-extension-system76-power, gnome-session-bin, gnome-session-common, xwayland
+Provides: gnome-session, x-session-manager
+Filename: ./session/kloudos-session_0.0.1_all.deb
+Size: 7640
+MD5sum: 4206cc0e6c7ab99c122897e35c4c6362
+SHA1: 3c2bdd7eb393ae08c34490dce9104cedaddcdc3b
+SHA256: 1c1290b855ee45fc18bbe648c2583be3bc7ce84602c28b1c03120a493db4e67a
+Section: x11
+Priority: optional
+Homepage: https://github.com/kloudos/session.git
+Description: GNOME session for KloudOS
+ This package contains the GNOME session used by KloudOS.
+
+Package: kloudos-upgrade
+Version: 0.0.1
+Architecture: amd64
+Maintainer: Latha Guntaka <admin@kloudos.org>
+Installed-Size: 12
+Depends: rsync
+Filename: ./upgrade/kloudos-upgrade_0.0.1_amd64.deb
+Size: 1284
+MD5sum: d0f1223daf8e0b5446209b579679c6fe
+SHA1: 539d530c06666621fd56848bacad800fb4a831d6
+SHA256: 3710695e48f7a60768f12f253667444f769ccb521950f70bff04a82d475d6ef7
+Section: admin
+Priority: optional
+Homepage: https://github.com/kloudos/upgrade
+Description: Utility for performing system upgrades on KloudOS
+
+Package: libkloudos-upgrade-gtk
+Source: kloudos-upgrade
+Version: 0.0.1
+Architecture: amd64
+Maintainer: Latha Guntaka <admin@kloudos.org>
+Installed-Size: 7
+Depends: kloudos-upgrade (= 0.0.1)
+Filename: ./upgrade/libkloudos-upgrade-gtk_0.0.1_amd64.deb
+Size: 1216
+MD5sum: 54df55d4ecce199031e41641f9cff2e2
+SHA1: 2b74ef1d99e330832d865bb3fd33af31ad2cc7ca
+SHA256: 9306370a06ac5c318fc674396e6e40cc3193a98f8c480e328ffbb755bb1d63dd
+Section: admin
+Priority: optional
+Homepage: https://github.com/kloudos/upgrade
+Description: The KloudOS upgrade experience as a GTK widget in a dylib
+ The KloudOS upgrade experience as a GTK widget in a dylib
+
+Package: libkloudos-upgrade-gtk-dev
+Source: kloudos-upgrade
+Version: 0.0.1
+Architecture: amd64
+Maintainer: Latha Guntaka <admin@kloudos.org>
+Installed-Size: 7
+Depends: libkloudos-upgrade-gtk (= 0.0.1)
+Filename: ./upgrade/libkloudos-upgrade-gtk-dev_0.0.1_amd64.deb
+Size: 1220
+MD5sum: a2f4b7caf9010b4b660afa034dcb413a
+SHA1: a1d5c664018fda805d84400dd9b44fd7ce80bdb2
+SHA256: de2194dfd1edaf14d212700e1cdd1e99db16367f4c43e48b46786111d4091345
+Section: admin
+Priority: optional
+Homepage: https://github.com/kloudos/upgrade
+Description: The C headers required for linking the libkloudos-upgrade-gtk widget
+ The C headers required for linking the libkloudos-upgrade-gtk widget
+
