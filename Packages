@@ -5,10 +5,10 @@ Maintainer: Latha Guntaka <admin@kloudos.org>
 Installed-Size: 18
 Depends: xwayland
 Filename: ./session/kloudos-session_0.0.1_all.deb
-Size: 5692
-MD5sum: 86b61be2d27e8dd7bf7ef42b520753d3
-SHA1: 9ff336c68d290a970bd2c96ccbe962e8436d316b
-SHA256: a3d94821811d37c73ad95618cace424ce70fe5d7aacdd3266ff2db45ed1c080e
+Size: 5708
+MD5sum: 7d31a9573e9b1b0e926cd4e136628dcc
+SHA1: 1de533f0e554830f3ac46ed881571c8694afdee0
+SHA256: 54cbcf5d326334d51653d503c02d6d4ae031d2dae37cda42e8351b977dd3a627
 Section: x11
 Priority: optional
 Homepage: https://github.com/kloudos/session.git
