@@ -4,13 +4,13 @@ Architecture: all
 Essential: yes
 Maintainer: Latha Guntaka <admin@kloudos.org>
 Installed-Size: 10
-Depends: kloudos-wallpapers, language-selector-gnome, nautilus, build-essential, curl, git, brltty, chrome-gnome-shell, fonts-dejavu-core, fonts-freefont-ttf, fonts-liberation, ghostscript-x, gvfs-backends, gvfs-fuse, ibus-table, inputattach, libatk-adaptor, libcanberra-gtk-module, libegl-mesa0, libpam-gnome-keyring, libproxy1-plugin-gsettings, libproxy1-plugin-networkmanager, nautilus-sendto, network-manager-pptp-gnome, sessioninstaller, sound-theme-freedesktop, lightdm, gnome-shell, app-install-data-partner, apt-transport-https, avahi-autoipd, avahi-daemon, cryptsetup, dbus-user-session, ecryptfs-utils, glib-networking, gstreamer1.0-plugins-base-apps, libnss-mdns, net-tools, policykit-desktop-privileges, resolvconf, xdg-user-dirs-gtk, xdg-utils, acpi-support, alsa-base, bluez, bluez-cups, cups-bsd, cups, fwupd, fwupdate, gstreamer1.0-alsa, gstreamer1.0-vaapi, ifupdown, laptop-detect, libblockdev-crypto2, libblockdev-mdraid2, libvdpau-va-gl1, lvm2, mesa-va-drivers, mesa-vulkan-drivers, network-manager, openprinting-ppds, pcmciautils, printer-driver-all, pulseaudio, rfkill, ubuntu-drivers-common, wireless-tools, vdpau-driver-all, appmenu-gtk2-module
+Depends: kloudos-wallpapers, language-selector-gnome, nautilus, build-essential, curl, git, brltty, chrome-gnome-shell, fonts-dejavu-core, fonts-freefont-ttf, fonts-liberation, ghostscript-x, gvfs-backends, gvfs-fuse, ibus-table, inputattach, libatk-adaptor, libcanberra-gtk-module, libegl-mesa0, libpam-gnome-keyring, libproxy1-plugin-gsettings, libproxy1-plugin-networkmanager, nautilus-sendto, network-manager-pptp-gnome, sound-theme-freedesktop, lightdm, gnome-shell, app-install-data-partner, apt-transport-https, avahi-autoipd, avahi-daemon, cryptsetup, dbus-user-session, ecryptfs-utils, glib-networking, gstreamer1.0-plugins-base-apps, libnss-mdns, net-tools, policykit-desktop-privileges, resolvconf, xdg-user-dirs-gtk, xdg-utils, acpi-support, alsa-base, bluez, bluez-cups, cups-bsd, cups, fwupd, fwupdate, gstreamer1.0-alsa, gstreamer1.0-vaapi, ifupdown, laptop-detect, libblockdev-crypto2, libblockdev-mdraid2, libvdpau-va-gl1, lvm2, mesa-va-drivers, mesa-vulkan-drivers, network-manager, openprinting-ppds, pcmciautils, printer-driver-all, pulseaudio, rfkill, ubuntu-drivers-common, wireless-tools, vdpau-driver-all, appmenu-gtk2-module
 Recommends: baobab, eog, evince, firefox, geary, gedit, gucharmap, libavcodec58, libreoffice-calc, libreoffice-impress, libreoffice-writer, seahorse, simple-scan, totem, yelp, file-roller, com.github.donadigo.eddy, fonts-noto-color-emoji, libreoffice-gnome, libreoffice-ogltrans, appmenu-gtk3-module, hidpi-daemon, flatpak
 Filename: ./desktop/kloudos-desktop_0.0.1_all.deb
-Size: 4032
-MD5sum: 2b17ae0932d41dbbe4733538d4b62da6
-SHA1: 06f39ba93942e47e5f725d1811ac8ee41bb018c9
-SHA256: 751a0edfab5bec084a51242714ea6c1b5cd8d9888b533a5d33179c7fd611692d
+Size: 4028
+MD5sum: 077cce7e8df02ab4a968ffc92a63342f
+SHA1: c263365d111f91e6b4539a67e9422bb92d77fc02
+SHA256: 5333c6b0469ada118e726b9ccc24f79e4d84f882315cf905a196d837c5be7bde
 Section: metapackages
 Priority: required
 Homepage: https://github.com/kloudos/desktop.git
