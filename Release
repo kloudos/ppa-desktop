@@ -1,7 +1,7 @@
 Architectures: i386 amd64 all
 Codename: cheetah
 Components: main
-Date: Sun, 27 Dec 2020 22:56:53 +0000
+Date: Fri, 01 Jan 2021 23:55:52 +0000
 Description: KloudOS 0.0.1 version
 Label: KloudOS
 Origin: kloudos
@@ -9,17 +9,17 @@ Suite: alpha
 Version: 0.0.1
 MD5Sum:
  f45ebd978c8dd7f732ef0fd0f2f3c2ae             1965 Packages
- 4e2942e47fcd57b5d34bc88ca32e4e0d             1100 Packages.gz
- e24d4244f066e325cb770e1c34632ad0              197 Release
+ fa5970056b1972a5a111bab7536efde2             1100 Packages.gz
+ 0c66a445e28ff50eb440533faba83b6c              197 Release
 SHA1:
  37e0db22895eea4471c7624487be0d0357452960             1965 Packages
- d5ce854b6129bd3d1c325bbf3239ba20449524d4             1100 Packages.gz
- f4f131d2a5f21331974cdcb52e2f95f37fbf52b6              197 Release
+ 6f971364a2d9cfd30acef77d0956564610e79b9c             1100 Packages.gz
+ 4206ff547937ba197f19af2a5faae586ea0355b1              197 Release
 SHA256:
  a056b7243728f6db43fdad2525e2a3eb5993ba2220eb94b7e1e317ea18e82849             1965 Packages
- 94c9d1c834f0609ea256dad37ce8c591569fc8323685923c171b131a9e65c6f1             1100 Packages.gz
- f6e02b08b52c60677301dff2dab5671127a23a665181317bd4a76580edf4b16b              197 Release
+ 0637d21225cc3764f957152cfe8a8330f53d6240804f5360045cf168b7fa8ac5             1100 Packages.gz
+ d686e30515811209ac6c6c16a97e5a4b97a6573418fd3576c485f1096c65d4e5              197 Release
 SHA512:
  3683ed95322689d8066ce656be0e1a4c583b760465a301954f2b6aee35b51842b0f020887fe4bf413017a930406325a353d7e0e6dd2220521eefb16f5a41d49c             1965 Packages
- 42f7d3bead01f9d5d55bfd79a8305a6548f3326096fe46ff9d1bd9a223307a85f6414324349f009a4a2a643fadbf0d664b4e2e784a8abe90376daf187137a059             1100 Packages.gz
- 8925bd177c3ac348a597378b2454a10d71c652aeda02725980f9978011c6439867f02bba9e604e7baf0e59fe9d1abfec3145cac2f482e63257377dcd474488ac              197 Release
+ fbbefd991133dd75af187273d9377d860d4e953db233fa683156ac68a063fc22871600df485f3fa78baca98c4fc1b20e7da9f6e5c482c068f2ba391df8fe3777             1100 Packages.gz
+ 8c6c55f43e6639b359c31efdb9202835979ebf29807dde2960d98cb52e6640404e355eb6451f06600ab23a4cac538cc81bf9089b6fb1c64354e03b58d5b3f028              197 Release
